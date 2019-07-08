@@ -1,0 +1,36 @@
+.swal2-content {
+	&.swal-custom-class {
+		font-size: 15px;
+	}
+}
+.swal2-actions {
+	.swal2-styled {
+		&.swal2-confirm,
+		&.swal2-cancel {
+			&.swal-custom-button {
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+.categories-container {
+	.box-body {
+		.panel-body {
+			.delete-all-button {
+				&.disabled {
+					pointer-events: none;
+					opacity: 0.2;
+				}
+			}
+		}
+	}
+}
+
+#category-modal {
+	#main-categories-dropdown {
+		.self-hidden {
+			display: none;
+		}
+	}
+}
